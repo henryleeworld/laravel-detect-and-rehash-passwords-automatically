@@ -1,4 +1,4 @@
-# Laravel 9 自動化偵測和重新雜湊驗證密碼
+# Laravel 10 自動化偵測和重新雜湊驗證密碼
 
 引入 samasend 的 laravel-needs-auto-rehash 套件來擴增偵測和重新雜湊驗證密碼自動化，通過 [`Hash::needsRehash`](https://laravel.com/docs/9.x/hashing) 自動檢查已雜湊的密碼所使用的加密係數是否有被變動，變動的話則進一步重新雜湊驗證密碼並更新模型。
 
