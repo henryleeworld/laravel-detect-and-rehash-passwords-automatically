@@ -20,9 +20,13 @@ $ php artisan key:generate
 ```sh
 $ php artisan migrate
 ```
-- 執行安裝 Laravel Mix 引用的依賴項目，並執行所有 Mix 任務。
+- 執行安裝 Vite 和 Laravel 擴充套件引用的依賴項目。
 ```sh
-$ npm install && npm run dev
+$ npm install
+```
+- 執行正式環境版本化資源管道並編譯。
+```sh
+$ npm run build
 ```
 - 在瀏覽器中輸入已定義的路由 URL 來訪問，例如：http://127.0.0.1:8000。
 - 你可以經由 `/register` 來進行註冊。
@@ -31,8 +35,8 @@ $ npm install && npm run dev
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/BYH4dVz.png)
+![](https://i.imgur.com/cnQwYIZ.png)
 > 不同的雜湊值驗證密碼都可存入資料庫使用者資料表
 
-![](https://i.imgur.com/qF33Q2z.png)
+![](https://i.imgur.com/mZAz68R.png)
 > 使用變更雜湊演算法前的帳號登入後，進入預設歡迎頁面
