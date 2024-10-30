@@ -1,6 +1,6 @@
-# Laravel 10 自動化偵測和重新雜湊驗證密碼
+# Laravel 11 自動化偵測和重新雜湊驗證密碼
 
-引入 samasend 的 laravel-needs-auto-rehash 套件來擴增偵測和重新雜湊驗證密碼自動化，通過 [`Hash::needsRehash`](https://laravel.com/docs/9.x/hashing) 自動檢查已雜湊的密碼所使用的加密係數是否有被變動，變動的話則進一步重新雜湊驗證密碼並更新模型。
+如果需要停用自動化偵測和重新雜湊驗證密碼功能，可以在 `config/hashing.php` 檔案中切換 `rehash_on_login` 旗標。
 
 ## 使用方式
 - 把整個專案複製一份到你的電腦裡，這裡指的「內容」不是只有檔案，而是指所有整個專案的歷史紀錄、分支、標籤等內容都會複製一份下來。
@@ -35,8 +35,8 @@ $ npm run build
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/cnQwYIZ.png)
+![](https://i.imgur.com/AiTgWsC.png)
 > 不同的雜湊值驗證密碼都可存入資料庫使用者資料表
 
-![](https://i.imgur.com/mZAz68R.png)
+![](https://i.imgur.com/TddZub9.png)
 > 使用變更雜湊演算法前的帳號登入後，進入預設歡迎頁面
