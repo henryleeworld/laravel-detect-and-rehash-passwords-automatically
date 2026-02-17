@@ -1,4 +1,4 @@
-# Laravel 11 自動化偵測和重新雜湊驗證密碼
+# Laravel 12 自動化偵測和重新雜湊驗證密碼
 
 如果需要停用自動化偵測和重新雜湊驗證密碼功能，可以在 `config/hashing.php` 檔案中切換 `rehash_on_login` 旗標。
 
@@ -35,8 +35,8 @@ $ npm run build
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/AiTgWsC.png)
+![](https://i.imgur.com/EMaWfi1.png)
 > 不同的雜湊值驗證密碼都可存入資料庫使用者資料表
 
-![](https://i.imgur.com/TddZub9.png)
+![](https://i.imgur.com/x0k1JMn.png)
 > 使用變更雜湊演算法前的帳號登入後，進入預設歡迎頁面
